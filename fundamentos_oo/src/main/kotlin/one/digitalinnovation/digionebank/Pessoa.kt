@@ -4,15 +4,17 @@ class Pessoa {
     var nome:String = "Jether"
     var cpf:String = "123.123.123.12"
     private set
+    constructor()
+
+    fun pessoainfo()= "$nome e  $cpf"
 
 }
 
 
 fun main(){
     val  Jether = Pessoa()
-    Jether.cpf = "1245.1287"
-    println(Jether.nome)
-    println(Jether.cpf)
+    println(Jether.pessoainfo())
+
 
 
 }
