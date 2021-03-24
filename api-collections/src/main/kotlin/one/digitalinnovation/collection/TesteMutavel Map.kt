@@ -5,6 +5,7 @@ fun main() {
     val pedro = Funcionario("Pedro", 2000.0, "PJ")
     val maria = Funcionario("Maria", 4000.0,"CLT")
 
+    println("-----------CRIA A BANCO---------------------")
     val repositorio = Repositorio<Funcionario>()
 
     repositorio.create(joao.nome, joao)
@@ -12,4 +13,11 @@ fun main() {
     repositorio.create(maria.nome, maria)
 
     println(repositorio.findById(joao.nome))
+
+    println("-----------PEGA TODOS---------------------")
+    repositorio.finAll().forEach { println(it) }
+
+    println("---------------REMOVE POR ID-----------------")
+    repositorio.remove(pedro.nome)
+    repositorio.finAll().forEach { println(it) }
 }
