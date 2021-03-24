@@ -1,4 +1,4 @@
-package one.digitalinnovation.collections
+package one.digitalinnovation.collection
 
 fun main() {
     val salarios = arrayOf(
@@ -7,9 +7,9 @@ fun main() {
         "4000".toBigDecimal()
     )
 
-    println("----------------------")
+    println("---------------------")
     println(salarios.somatoria())
 
-    println("----------------------")
+    println("---------------------")
     println(salarios.media())
 }
