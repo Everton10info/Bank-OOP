@@ -6,4 +6,4 @@
 
 
 
- *Código em Kotlin representando parte de um sistema bancário, com os conceitos de Orientação a Objetos, Classe, Enum, Abstração, Aolimorfismo e Testes.*
+ *Código em Kotlin representando parte de um sistema bancário, com os conceitos de Orientação a Objetos, Classe, Enum, Abstração, Polimorfismo e Testes.*
